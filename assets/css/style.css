@@ -23,6 +23,16 @@ transition: all 0.9s ease 0.1s;
   transform: scale(1.2);
 }
 
+.zoom-img {
+  transition: 0.5s;
+  object-fit: cover;
+  object-fit: cover;
+}
+
+.zoom-img:hover {
+  transform: scale(1.2);
+}
+
 .fig {
   overflow: hidden;
 }
@@ -541,7 +551,7 @@ section {
 
 .section-title h2 {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 900;
   margin-bottom: 5px;
   padding-bottom: 0;
   color: #000000;
@@ -868,7 +878,7 @@ section {
   left: 1px;
   right: 0;
   bottom: 20px;
-  transition: bottom 0.4s;
+  /* transition: bottom 0.4s; */
 }
 
 .team .member .member-info-content h4 {
@@ -921,8 +931,8 @@ section {
 }
 
 .team .member:hover .member-info-content {
-  bottom: 150px;
-  transition: bottom 0.4s;
+  /* bottom: 150px;
+  transition: bottom 0.4s; */
 }
 
 .team .member:hover .social {
@@ -1397,3 +1407,5 @@ section {
     margin-top: 22px;
     padding: 0px;
 }
+
+
