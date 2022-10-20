@@ -7,7 +7,7 @@
 margin-right: -395px;
 }
 .guia2{
-max-width: 695px;
+max-width: 5px;
 }
 .navegacion{
   background-color: #48484883;
@@ -90,10 +90,7 @@ max-width: 695px;
   color: #777777;
 }
 
-.team .member:hover  {
-  opacity: 1;
-  bottom: 15px;
-}
+
 
 
 

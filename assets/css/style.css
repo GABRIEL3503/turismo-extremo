@@ -15,25 +15,17 @@ transition: all 0.9s ease 0.1s;
 
 
 } */
-.zoom-img {
+.member .zoom-img {
   transition: 0.5s;
   object-fit: cover;
   object-fit: cover;
 }
 
-.zoom-img:hover {
-  transform: scale(1.2);
+.member:hover .zoom-img  {
+  transform: scale(1.1);
 }
 
-.zoom-img {
-  transition: 0.5s;
-  object-fit: cover;
-  object-fit: cover;
-}
 
-.zoom-img:hover {
-  transform: scale(1.2);
-}
 
 .fig {
   overflow: hidden;
