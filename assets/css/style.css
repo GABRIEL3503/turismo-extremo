@@ -12,6 +12,8 @@
 /* .tarjeta:hover{
 width: 46vh;
 transition: all 0.9s ease 0.1s;
+
+
 } */
 .zoom-img {
   transition: 0.5s;
@@ -702,6 +704,7 @@ section {
 @media (max-width: 768px) {
   .steps .content-item {
     padding: 40px 0;
+    text-align: center;
   }
 }
 
@@ -1395,6 +1398,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  .conten-item{
+text-align: center;
+  }
   .crono{
     height: 90vh;
     max-width: 50vh;
