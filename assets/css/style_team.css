@@ -1,13 +1,44 @@
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.margen{
+margin-top: 124px;
+}
+.header__area.active {
+  background-color: rgba(0, 0, 0, 0.534);
+  max-width: 100%;
+  position: fixed;
+  border-radius: 0;
+  top: 0;
+
+}
+
+.header__area {
+  transition: all 9.9s ease 20s;
+}
+#header {
+  height: 70px;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+#header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 
 .guias{
 margin-right: -395px;
+max-width: 99%;
 }
 .guia2{
-max-width: 5px;
+max-width: 580px;
 }
 .navegacion{
   background-color: #48484883;
