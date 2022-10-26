@@ -1,9 +1,7 @@
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.margen{
-margin-top: 124px;
-}
+
 .header__area.active {
   background-color: rgba(0, 0, 0, 0.534);
   max-width: 100%;
@@ -44,6 +42,7 @@ max-width: 580px;
   background-color: #48484883;
 }
 .team {
+  margin-top: 22px;
   background: rgb(255, 255, 255);
   padding: 60px 0;
 }
