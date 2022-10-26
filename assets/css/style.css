@@ -15,6 +15,8 @@ transition: all 0.9s ease 0.1s;
 
 
 } */
+
+
 .aventura{
   font-family: 'Bayon', sans-serif,
   cursive, 'Roboto Condensed', sans-serif;
@@ -256,7 +258,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #1bac91;
+  background-color: #e7a834;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -497,7 +499,7 @@ h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+ .btn-get-started {
   margin-top: 25px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -512,9 +514,10 @@ h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
-  border-color: #41d1fd;
-  background: #36a5ff;
+.btn-get-started:hover {
+  color: #ffba3b;
+  border-color: #ffba3b;
+  background:#1357778f ;
 }
 
 @media (min-width: 1024px) {
@@ -566,12 +569,13 @@ section {
   font-weight: 900;
   margin-bottom: 5px;
   padding-bottom: 0;
-  color: #000000;
+  color: #ff6a00;
 }
 
 .section-title p {
+  line-height: 27px;
   color: #135777;
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 0;
 }
 
@@ -693,7 +697,7 @@ section {
   display: block;
   font-size: 24px;
   font-weight: 400;
-  color: #ffffff;
+  color: #ff6a00;;
 }
 
 .steps .content-item h4 {
@@ -701,7 +705,7 @@ section {
   font-weight: 900;
   padding: 0;
   margin: 8px 0;
-  color: #94c5bd;
+  color: #ffffff;
 }
 
 .steps .content-item p {
@@ -1385,27 +1389,28 @@ section {
 .calendar{
   margin-top: 46px;
 }
-.wpaccion {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  border: 2px solid #1bac91;;
-  color: #fff;
-  background: #1bac91;
-  margin-top: 6px;
-}
 
-.wpaccion:hover {
-  border-color: #fff;
-  background: #1bac91;
-}
-
+  .wpaccion {
+    background: #ffffff00;
+    margin-top: 25px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    color: rgba(255, 255, 255, 0.363);
+  }
+  
+  .wpaccion:hover {
+    color: #ffba3b;
+    border-color: #ffba3b;
+    background:#1357778f ;
+  }
 
 .cta {
   background: linear-gradient(rgba(21, 22, 22, 0.8), rgba(103, 176, 209, 0.8)), url("../img/lanin/WhatsApp\ Image\ 2022-08-29\ at\ 19.19.04.jpeg") fixed center center;
@@ -1414,7 +1419,7 @@ section {
 }
 
 .cta h3 {
-  color: #fff;
+  color:#ff6a00;
   font-size: 28px;
   font-weight: 700;
 }

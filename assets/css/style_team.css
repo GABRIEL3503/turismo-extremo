@@ -44,7 +44,7 @@ max-width: 580px;
   background-color: #48484883;
 }
 .team {
-  background: rgb(157, 199, 247);
+  background: rgb(255, 255, 255);
   padding: 60px 0;
 }
 
@@ -217,7 +217,7 @@ max-width: 580px;
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #1bac91;
+  background-color: #e6a037;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -271,7 +271,7 @@ max-width: 580px;
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1bac91;
+  color: #f8a73d;
 }
 
 .navbar .dropdown:hover>ul {
@@ -347,6 +347,7 @@ max-width: 649px;
 }
 
 .navbar-mobile ul {
+  height: 330px;
   display: block;
   position: absolute;
   top: 55px;
@@ -379,7 +380,7 @@ max-width: 649px;
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #1bac91;
+  color: #f8a73d;
 }
 
 .navbar-mobile .getstarted,
@@ -414,7 +415,7 @@ max-width: 649px;
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1bac91;
+  color: #f8a73d;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -424,3 +425,24 @@ max-width: 649px;
   .guias{
     margin-right: -9px;
     }}
+    .section-title {
+      font-weight: 600;
+      padding-bottom: 40px;
+      text-align: center;
+    }
+    
+    .section-title h2 {
+      font-size: 36px;
+      font-weight: 900;
+      margin-bottom: 5px;
+      padding-bottom: 0;
+      color: #ff6a00;
+    }
+    
+    .section-title p {
+      line-height: 27px;
+      color: #135777;
+      font-size: 25px;
+      margin-bottom: 0;
+    }
+    
