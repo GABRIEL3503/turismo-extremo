@@ -3,6 +3,13 @@
 * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+* Initiate gallery lightbox 
+   */
+const galleryLightbox = GLightbox({
+  selector: '.gallery-lightbox'
+});
+
+/**
 */
 
 let headerArea = document.querySelector(".header__area");
